@@ -6,7 +6,8 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "build": "eas build --profile development --platform android"
   },
   "dependencies": {
     "@config-plugins/react-native-blob-util": "^4.0.0",
@@ -19,8 +20,9 @@
     "@react-navigation/native": "^6.1.1",
     "@react-navigation/native-stack": "^6.9.7",
     "@reduxjs/toolkit": "^1.9.1",
+    "@xmldom/xmldom": "^0.8.6",
     "expo": "~47.0.6",
-    "expo-cli": "^6.0.8",
+    "expo-cli": "^6.1.0",
     "expo-dev-client": "~2.0.1",
     "expo-status-bar": "~1.4.2",
     "fbjs": "^3.0.4",
